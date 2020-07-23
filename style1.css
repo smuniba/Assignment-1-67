@@ -1,0 +1,56 @@
+.images {
+    width: auto;
+    height: 300px;
+}
+
+.head5 {
+    margin-left: 30px;
+}
+
+.submit1 {
+    margin-bottom: 10px;
+    margin-left: 200px;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 10px;
+    height: 30px;
+}
+
+#des {
+    margin-left: 200px;
+}
+#img1,#img2,#img3,#img4
+{
+    width: 200px;
+    height: 200px;
+}
+#modal
+{
+    text-align: center;
+}
+#mod{
+    width: 600px;
+    height: 400px;
+    border: 2px solid grey;
+    border-radius: 25px;
+    margin-left: 360px;
+    position: absolute;
+    top: 20%;
+    display: none;
+}
+.close{
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
